@@ -1,0 +1,50 @@
+process.stdout.write;
+process.stdout.clearLine();
+process.stdout.cursorTo(n);
+
+//Listeners
+process.stdin.on('data', function(){});
+process.on('exit', function(){});
+
+require(); -> path, util, v8(getHeapStatistics())
+
+rl.question()
+rl.setPrompt()
+rl.prompt()
+
+object.push()
+rl = readline.createInterface(process.stdin, process.stdout);
+
+events = require("events");
+emiiter = new events.EventEmitter();
+//alt
+var EventEmitter = require('events').EventEmitter;
+emitter.on('eventName', function(){} );
+emitter.emit('event');
+util.inherits(class,EventEmitter();
+exec(err, function(stdout){});
+spawn -> long ongoing process data
+
+require(fs);
+fs.readdirSync()
+fs.writeFileSync() //writefile needs callback
+fs.appendFile()
+fs.existsSync()
+fs.mkdir()
+fs.rename("a","to b")
+fs.unlinkSync()		//without Sync use callback
+fs.rmdir()
+fs.createReadStream()
+fs.createWriteStream()
+
+https.request(options{hostname:"", port:"", path:"", method:""};)
+res.writeHead()
+res.end()
+fileStreamName.pipe(res)
+
+
+exit
+
+
+
+
